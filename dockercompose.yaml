@@ -1,0 +1,9 @@
+services:
+  wcf.practise:
+    image: wcf.practise
+    build:
+    ### This is the path to the Dockerfile
+      context: .
+      # dockerfile: Dockerfile
+      ports:
+      - "8080:80"
